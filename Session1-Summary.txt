@@ -1,0 +1,19 @@
+Version Control System
+    Version control is a system that records changes to a file or set of files over time so that you can recall specific versions         later.
+    Version Control Syatem is a component of software configuration management.
+    With a VCS, everybody on the team is able to work absolutely freely - on any file at any time. The VCS will later allow you to        merge all the changes into a common version. There's no question where the latest version of a file or the whole project is.          It's in a common entral place: your version control system.
+
+Centalised Version Control System
+    Centralized version control systems are based on the idea that there is a single “central” copy of your project somewhere             (probably on a server), and programmers will “commit” their changes to this central copy.
+    “Committing” a change simply means recording the change in the central system. Other programmers can then see this change. They       can also pull down the change, and the version control tool will automatically update the contents of any files that were changed.
+    Workflow for adding a new feature or fixing a bug in your project in centralized verison control system, will usually look            something like this:
+        1.Pull down any changes other people have made from the central server.
+        2.Make your changes, and make sure they work properly.
+        3.Commit your changes to the central server, so other programmers can see them.
+        
+Distributed Version Control System
+    Distributed revision control takes a peer-to-peer approach to version control, as opposed to the client-server approach of            centralized systems. Rather than a single, central repository on which clients synchronize, each peer's working copy of the           codebase is a complete repository.[1] Distributed revision control synchronizes repositories by exchanging patches (sets of           changes) from peer to peer. This results in some important differences from a centralized system:
+        1.No canonical, reference copy of the codebase exists by default,only working copies.
+        2.Common operations(such as commits, viewing history, and reverting changes) are fast, because there is no need to communicate           with a central server.[2]
+        3.Communication is only necessary when sharing changes among other peers.
+        4.Each working copy effectively functions as a remote backup of the codebase and of its change-history, protecting against              data loss
