@@ -3,4 +3,10 @@
 
 
 Design Documention Way in Software Engineering 
-     
+     In computer hardware and software product development, documentation is the information that describes the product to its users. It consists of the product technical manuals and online information (including online versions of the technical manuals and help facility descriptions). The term is also sometimes used to mean the source information about the product contained in design documents, detailed code comments, white papers, and blackboard session notes.
+
+
+UML
+    *The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
+    *UML has many types of diagrams, which are divided into two categories.Some types represent structural information, and the rest represent general types of behavior, including a few that represent different aspects of interactions. 
+
