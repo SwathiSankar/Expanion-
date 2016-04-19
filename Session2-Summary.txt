@@ -47,6 +47,24 @@ How Java is Platform Independent language
    
    
  Pure OOP Language
+   *A pure object oriented language is one which does not support any primitive data types such as int,byte,long etc..
+   *A language is called PURE object oriented if It contains only objects and classes. In it we do access everything
+    through 'Message Passing'. A Pure Object Oriented Language has these following characteristics, 
+        +All predefined DATA Types are objects.
+        +All user defined DATA Types are objects.
+        +Data Hiding
+        +Encapsulation
+        +Inheritance
+        +Polymorphism
+        +Abstraction
+        
+        
+JDK vs JRE vs JVM
+   *JRE is an acronym for Java Runtime Environment.It is used to provide runtime environment.It is the implementation of JVM.It physically exists.It contains set of libraries + other files that JVM uses at runtime. JDK is an acronym for Java Development. KitIt physically exists.It contains JRE + development tools.
    
-
+   
+   
+PATH & CLASSPATH
+   *PATH is an environment variable which is used to locate JDK binaries like "java" or "javac" command used to run java program and compile java source file.
+   *CLASSPATH is an environment variable which is used by System or Application ClassLoader to locate and load compile Java bytecodes stored in .class file.
 
