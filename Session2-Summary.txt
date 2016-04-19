@@ -39,4 +39,14 @@ Programming Paradigm
        
        
 Compiled language Vs. Interpreted language
+    *In computer programming, an interpreted language is a programming language in which programs are 'indirectly' executed ("interpreted") by an interpreter program. This can be contrasted with a compiled language which is converted into machine code and then 'directly' executed by the host CPU.
+    
+    
+How Java is Platform Independent language 
+   *Java, as a programming language is platform independent. The compiled Java code is converted to bytecode which is then executed by Java Virtual Machine(JVM). The platform dependent code is in JVM, hence you find different JVM's for different Operating Systems.
+   
+   
+ Pure OOP Language
+   
+
 
