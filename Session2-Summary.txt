@@ -9,4 +9,34 @@ Design Documention Way in Software Engineering
 UML
     *The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
     *UML has many types of diagrams, which are divided into two categories.Some types represent structural information, and the rest represent general types of behavior, including a few that represent different aspects of interactions. 
+    
+    
+Sequence Diagram
+    *A Sequence diagram is an interaction diagram that shows how processes operate with one another and in what order.
+    * It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to    carry out the functionality of the scenario.
+    *Sequence diagrams are typically associated with use case realizations in the Logical View of the system under development.
+    
+    
+Flow Chart
+    *A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds, and their order by connecting them with arrows. 
+    *This diagrammatic representation illustrates a solution model to a given problem.
+    *Flowcharts are used in analyzing, designing, documenting or managing a process or program in various fields.
+    
+    
+Programming Paradigm
+    *The notion of programming paradigms is a way to classify programming languages, according to styles of computer programming.
+    *Features of various programming languages determine which programming paradigms they belong to.
+    *Some programming languages fall into only one paradigm, while others fall into multiple paradigms.
+    *Some paradigms are concerned primarily with implications for the execution model of the language, such as allowing side effects, or whether the sequence of operations is defined by the execution model.
+    *Other paradigms are concerned primarily with the way that code is organized, such as grouping code into units along with the state that is modified by the code. 
+    *Yet others are concerned primarily with the style of syntax and grammar.
+    *Common Programming Paradigms include
+       +object-oriented
+       +imperative
+       +functional
+       +procedural
+       +declarative
+       
+       
+Compiled language Vs. Interpreted language
 
