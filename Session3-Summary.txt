@@ -1,0 +1,50 @@
+
+Ways to Specify CLASSPATH in Java
+    * The     CLASSPATH variable is one way to tell applications, including the JDK tools, where to look for user classes. (Classes that are part of the JRE, JDK platform, and extensions should be defined through other means, such as the bootstrap class path or the extensions directory.)
+    * The preferred way to specify the class path is by using the -cp command line switch. This allows the CLASSPATH to be set individually for each application without affecting other applications. Setting the CLASSPATH can be tricky and should be performed with care.
+    * The default value of the class path is ".", meaning that only the current directory is searched. Specifying either the CLASSPATH variable or the -cp command line switch overrides this value.
+    * To check whether CLASSPATH is set on Microsoft Windows NT/2000/XP, execute the following:
+          C:> echo %CLASSPATH%
+      On Solaris or Linux, execute the following:
+          % echo $CLASSPATH
+    * If CLASSPATH is not set you will get a CLASSPATH: Undefined variable error (Solaris or Linux) or simply %CLASSPATH% (Microsoft Windows NT/2000/XP).
+    
+    
+IDE
+    An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers
+    for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs
+    have intelligent code completion.
+    
+    
+Java Package
+   * A Java package is a technique for organizing Java classes into namespaces similar to the modules of Modula, providing modular programming in Java. 
+   *Java packages can be stored in compressed files called JAR files, allowing classes to be downloaded faster as groups rather than individually.
+   *Packages are used in Java in order to prevent naming conflicts, to control access, to make searching/locating and usage of classes interfaces, enumerations and annotations easier, etc.
+
+
+java.lang.object class in Java
+   * The java.lang.Object class is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class. 
+   
+hashcode()
+    * In the Java programming language, every class implicitly or explicitly provides a hashCode() method, which digests the data stored in an instance of the class into a single hash value (a 32-bit signed integer).
+    
+equals()
+    * The equals method provides "deep comparison" by checking if two objects are logically equal as opposed to the "shallow comparison" provided by the equality operator == . However, the equals method in java.lang.Object class only provides "shallow comparison", same as provided by the equality operator == .
+    
+toString()
+    * Implementing toString method in java is done by overriding the Object's toString method. The java toString() method is used when we need a string representation of an object. It is defined in Object class. This method can be overridden to customize the String representation of the Object.
+    
+Java Code Convention
+    * Method Names
+       Compose method names using mixed case letters, beginning with a lower case letter and starting each subsequent word with an upper case letter.
+    * Variable Names
+       $ Choose meaningful names that describe what the variable is being used for. Avoid generic names like number or temp whose
+         purpose is unclear.
+       $ Compose variable names using mixed case letters starting with a lower case letter. For example, use salesOrder rather than
+         SalesOrder or sales_order.
+   
+    
+    
+    
+
+   
