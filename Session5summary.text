@@ -1,0 +1,78 @@
+
+Unit Testing
+     * Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. Unit testing is often automated but it can also be done manually.
+     
+Popular Java Unit testing Frameworks
+  1.Arquillian
+     * Arquillian is a highly innovative and extendible testing platform for JVM that allows developers to easily create automated integration, functional and acceptance tests for Java. 
+     * Arquillian allows you to run test in the run-time so you don’t have to manage the run-time from the test (or the build).
+     * Arquillian can be used to manage the life cycle of the container (or containers),bundling test cases, dependent classes and resources. 
+     * It is also capable of deploying archive into containers and execute tests in the containers and capture results and create reports.
+     * Arquillian integrates with familiar testing frameworks such as JUnit 4, TestNG 5 and allows tests to be launched using existing IDE, and because of its modular design it is capable of running Ant and Maven test plugins.
+     
+  2.JTest
+      * JTest also known as ‘Parasoft JTest’ is an automated Java software testing and static analysis software made by Parasoft. 
+      * includes functionality for Unit test-case generation and execution, static code analysis, data flow static analysis, and metrics analysis, regression testing, run-time error detection.
+      * There are also features that allow you to peer code review process automation and run-time error detection for e.g.: Race conditions, exceptions, resource and memory leaks, security attack vulnerabilities.
+      
+  3.TestNG
+      * TestNG is a testing framework designed for the Java programming language and inspired by JUnit and NUnit. 
+      * TestNG was primarily designed to cover a wider range of test categories such as unit, functional, end-to-end, integration, etc. 
+      * It also introduced some new functionality that make it more powerful and easier to use, such as: Annotations, Running tests in big thread pools with various policies available, code testing in a multi thread safe, flexible test configurations, data-driven testing support for parameters, and more.
+      * TestNG is supported by a variety of tools and plug-ins such as Eclipse, IDEA, Maven, etc..
+      
+  4.JUnit
+      * JUnit is a unit testing framework designed for the Java programming language. 
+      * JUnit has played an important role in the development of test-driven development frameworks.
+      * It is one of a family of unit testing frameworks which is collectively known as the xUnit that originated with SUnit.
+      * JUnit is linked as a JAR at compile-time and can be used to write repeatable tests.
+
+
+  5.JWalk
+      * JWalk is designed as a unit testing toolkit for the Java programming language.
+      * It has been designed to support a testing paradigm called Lazy Systematic Unit Testing. 
+      * The JWalkTester tool performs any tests of any compiled Java class, supplied by a programmer.
+      * It is capable of testing conformance to a lazy specification, by static and dynamic analysis, and from hints by the programmer behind the code.
+
+  6.Mockito
+      * Mockito is designed as a open source testing framework for Java which is available under a MIT License. 
+      * Mockito allows programmers to create and test double objects (mock objects) in automated unit tests for the purpose of Test-driven Development (TDD) or Behavior Driven Development (BDD).
+
+  7.Powermock
+      * PowerMock is a Java Framework for unit testing of source code and It runs as an extension of other Mocking frameworks like Mockito or EasyMock but comes with more powerful capabilities.
+      * PowerMock utilizes a custom classloader and bytecode manipulator to enable mocking of static methods, removal of static initializes, constructors, final classes and methods and private methods. 
+      * It as been primarily designed to extend the existing API’s with a small number of methods and annotations to enable the extra features.
+      
+Build Automation Software
+      * Build automation involves scripting or automating the process of compiling computer source code into binary code. Below is a list of notable tools associated with automating build processes
+      
+      1.Jenkins
+          * Jenkins is an open source continuous integration tool written in Java.
+          * The project was forked from Hudson after a dispute with Oracle.
+          * Jenkins provides continuous integration services for software development.
+          * It is a server-based system running in a servlet container such as Apache Tomcat. 
+          * It supports SCM tools including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, Clearcase and RTC, and can execute Apache Ant and Apache Maven based projects as well as arbitrary shell scripts and Windows batch commands.
+          
+      2.TeamCity
+          * TeamCity is a Java-based build management and continuous integration server from JetBrains.
+          * It was first released on October 2, 2006. 
+          * TeamCity is commercial software and licensed under a proprietary license.
+          * A Freemium license for up to 20 build configurations and 3 free Build Agent licenses is available. Open Source projects can request a free license.
+          
+      3.Maven
+          * Maven is a build automation tool used primarily for Java projects. 
+          *The word maven means 'accumulator of knowledge' in Yiddish.
+          * Maven addresses two aspects of building software: First, it describes how software is built, and second, it describes its dependencies. 
+          
+      4.CruiseControl
+          * CruiseControl is a Java-based framework for a continuous build process. 
+          * It includes, but is not limited to, plugins for email notification, Ant, and various source control tools.
+          * A web interface is provided to view the details of the current and previous builds.
+          * It allows one to perform a continuous integration of any software development process.
+          
+      5.ANT
+          * Apache Ant is a software tool for automating software build processes.
+          * It originally came from the Apache Tomcat project in early 2000. 
+          * It was a replacement for the unix make build tool, and was created due to a number of problems with the unix make.
+          * It is similar to Make but is implemented using the Java language, requires the Java platform, and is best suited to building Java projects.
+      
